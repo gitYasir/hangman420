@@ -1,6 +1,6 @@
 # Hangman Project
 
-## Table of Contents
+## Table of Content
 
     - Description
     - Installation instructions
@@ -8,7 +8,15 @@
     - File structure
     - License information
 
-## A description of the project: what it does, the aim of the project, and what you learned
+## Description
+
+    This is my second project at AiCore.
+
+### Aim:
+
+    To build a hangman game that can be played on the terminal/console
+
+## What I learned
 
 ## Installation instructions
 
