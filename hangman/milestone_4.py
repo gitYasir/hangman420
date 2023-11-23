@@ -11,6 +11,10 @@ class Hangman:
         self.list_of_guesses = []
 
     def check_guess(self, guess):
+        """
+        This function takes in the users guess.
+        It updates upto 3 attributes (word_guessed and numb_letters if correct guess and num_lives if incorrect.
+        """
         lowered_guess = guess.lower()
         if lowered_guess in self.word_to_be_guessed:
             print(f"Good guess! {guess} is in the word.")
@@ -25,6 +29,10 @@ class Hangman:
             print(f"You have {self.num_lives} lives left.")
 
     def ask_for_input(self):
+        """
+        This function [currently] continuously asks for the user to make a guess.
+        It updates list_of_guesses if acceptable guess.
+        """
         while True:
             guess = input("guess a letter \n")
 
