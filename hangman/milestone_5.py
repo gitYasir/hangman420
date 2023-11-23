@@ -34,9 +34,9 @@ class Hangman:
         It updates list_of_guesses if acceptable guess.
         """
         while True:
-            print("le", self.num_letters)
-            print("li", self.num_lives)
-            print("gu", self.word_guessed)
+            print("Lives", self.num_lives)
+            print("Word", self.word_guessed)
+            print("Guessed letters", self.list_of_guesses)
             guess = input("guess a letter \n")
 
             if len(guess) != 1 or not guess.isalpha():
@@ -46,6 +46,7 @@ class Hangman:
             else:
                 self.check_guess(guess)
                 self.list_of_guesses.append(guess)
+            break
 
 
 def play_game(word_list):
