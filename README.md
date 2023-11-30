@@ -10,11 +10,11 @@
 
 ## Description
 
-    This is my second project at AiCore.
+This is my second project at AiCore, where I aimed to create an engaging Hangman game playable on the terminal/console. The project leverages fundamental Object-Oriented Programming (OOP) principles, encapsulating game logic within the Hangman class. Key functionalities include word selection, user input validation, and list manipulation for game state tracking. The game employs a structured game loop, allowing repeated user input until game completion conditions are met.
 
 ### Aim:
 
-    To build a hangman game that can be played on the terminal/console
+To build a hangman game that can be played on the terminal/console
 
 ## What I learned
 
